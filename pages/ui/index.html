@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>인게임 UI - 리그 오브 레전드</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <header class="frame">
+        <div class="div">
+          <div class="rectangle"></div>
+          <img
+            class="element"
+            src="/images/200px-리그오브레전드_로고.webp"
+            alt="League of Legends Logo"
+          />
+        </div>
+        <nav class="frame-2" role="navigation" aria-label="Main Navigation">
+          <div class="rectangle-2"></div>
+          <a href="/pages/home/" class="div-wrapper"
+            ><span class="text-wrapper">홈</span></a
+          >
+          <div class="rectangle-2"></div>
+          <a href="/pages/champoins/" class="frame-3"
+            ><span class="text-wrapper-2">챔피언</span></a
+          >
+          <div class="rectangle-2"></div>
+          <a href="/pages/line/" class="frame-4"
+            ><span class="text-wrapper-3">라인</span></a
+          >
+          <div class="rectangle-2"></div>
+          <a href="/pages/ui/" class="frame-5"
+            ><span class="text-wrapper-4">UI 정보</span></a
+          >
+          <div class="rectangle-2"></div>
+          <a href="/pages/growth/" class="frame-6"
+            ><span class="text-wrapper-5">성장</span></a
+          >
+          <div class="rectangle-2"></div>
+          <a href="/pages/object/" class="frame-7"
+            ><span class="text-wrapper-6">오브젝트</span></a
+          >
+          <div class="rectangle-2"></div>
+          <a href="/pages/esports/" class="frame-7"
+            ><span class="text-wrapper-7">E 스포츠</span></a
+          >
+        </nav>
+        <div class="rectangle-wrapper"><div class="rectangle-3"></div></div>
+      </header>
+      <main>
+        <section class="frame-wrapper">
+          <div class="frame-8">
+            <h1 class="text-wrapper-8">인게임 UI</h1>
+            <p class="p">
+              UI 정보를 읽으면 게임 상황을 쉽게 파악할 수 있습니다.
+            </p>
+          </div>
+        </section>
+        <section class="UI-wrapper">
+          <img
+            class="UI"
+            src="/images/ingame_ui.png"
+            alt="League of Legends In-Game UI Overview"
+          />
+        </section>
+        <section class="frame-9">
+          <div class="frame-10">
+            <article class="frame-11">
+              <h2 class="text-wrapper-9">챔피언과 레벨 정보</h2>
+              <div class="frame-12">
+                <img
+                  class="img"
+                  src="/images/champion_profile.png"
+                  alt="Champion Portrait"
+                />
+                <img
+                  class="img"
+                  src="/images/champion_profile.png"
+                  alt="Champion Level Indicator"
+                />
+                <span class="text-wrapper-10" aria-label="Champion Label"
+                  >1. 챔피언</span
+                >
+                <span class="text-wrapper-11" aria-label="Indicator 1">1</span>
+                <span class="text-wrapper-12" aria-label="Indicator 2">2</span>
+                <span class="text-wrapper-13" aria-label="Level Label"
+                  >2. 레벨</span
+                >
+                <p class="text-wrapper-14">
+                  인게임 화면 중앙 하단에 챔피언의 초상화가 뜹니다.
+                </p>
+                <p class="text-wrapper-15">
+                  챔피언 초상화 우측 하단에 챔피언의 레벨이 표기됩니다.<br />미니언과
+                  몬스터를 처치해 레벨업을 할 수 있습니다.
+                </p>
+              </div>
+            </article>
+            <article class="frame-13">
+              <h2 class="text-wrapper-16">스킬과 쿨타임</h2>
+              <img
+                class="UI-2"
+                src="/images/skills_profile.png"
+                alt="Champion Skills Interface"
+              />
+              <div class="frame-14">
+                <h3 class="text-wrapper-17">스킬</h3>
+                <p class="q-w-e-r">
+                  챔피언은&nbsp;&nbsp;기본 스킬인 Q, W, E와 강력한 궁극기인 R을
+                  가지고 있습니다.<br />스킬을 사용할 경우 스킬 위에 쿨타임이
+                  표시됩니다.
+                </p>
+              </div>
+            </article>
+            <article class="frame-15">
+              <h2 class="text-wrapper-18">체력과 마나</h2>
+              <div class="frame-16">
+                <img class="UI-3" src="/images/hp.png" alt="Health Bar" />
+                <img class="UI-4" src="/images/hp.png" alt="Mana Bar" />
+                <span class="text-wrapper-19" aria-label="Health Indicator"
+                  >1</span
+                >
+                <span class="text-wrapper-20" aria-label="Mana Indicator"
+                  >2</span
+                >
+              </div>
+              <div class="frame-17">
+                <h3 class="text-wrapper-21">1. 체력</h3>
+                <p class="text-wrapper-22">
+                  초록색 바에 챔피언의 남은 체력이 표시됩니다.
+                </p>
+                <h3 class="text-wrapper-23">2. 마나</h3>
+                <p class="text-wrapper-24">
+                  파란색 바에 챔피언의 남은 마나가 표시됩니다.<br />챔피언은
+                  스킬을 사용하기 위해 마나를 소모합니다.<br />마나는 일정
+                  시간마다 채워집니다.
+                </p>
+              </div>
+            </article>
+            <article class="frame-18">
+              <h2 class="text-wrapper-25">보유 아이템과 골드</h2>
+              <div class="frame-19">
+                <img class="UI-5" src="/images/item.png" alt="Champion Items" />
+                <img class="UI-6" src="/images/item.png" alt="Gold Amount" />
+                <span class="text-wrapper-26" aria-label="Items Indicator"
+                  >1</span
+                >
+                <span class="text-wrapper-27" aria-label="Gold Indicator"
+                  >2</span
+                >
+              </div>
+              <div class="frame-20">
+                <h3 class="text-wrapper-28">1. 보유 아이템</h3>
+                <p class="text-wrapper-29">
+                  챔피언이 현재 가지고 있는 아이템을 나타냅니다.<br />아이템은
+                  우물로 돌아가 골드로 구매합니다.
+                </p>
+                <h3 class="text-wrapper-30">2. 보유 골드</h3>
+                <p class="text-wrapper-31">
+                  챔피언이 현재 가지고 있는 골드를 나타냅니다.<br />미니언,
+                  몬스터, 적을 처치하거나 포탑을 부숴 골드를 획득할 수 있습니다.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
